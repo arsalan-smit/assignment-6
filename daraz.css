@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: #F5F5F5;
+}
+.navefirst{
+    background-color: #F85606;
+    width: 100%;
+}
+.naveaddress {
+    height: 25px;
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+}
+.naveaddress a{
+    color: #FFFFFF;
+    font-size: 0.72rem;
+    text-decoration: none;
+    margin-right: 22px;
+    margin-top: 6px;
+    
+}
+.naveaddress a:hover{
+    color: #f7d2bf;
+}
+.navsecond{
+    height: 66px;
+    width: 100%;
+    background-color: #F85606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navelogo{
+    height: 50px;
+    width: 125px;
+    background-image: url(daraz-logo.png);
+    background-size: cover;
+    margin-left: 80px;
+}
+.navesearch{
+    display: flex;
+    height: 40px;
+    width: 750px;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+   
+.search-input{
+    display: flex;
+    color: #999999;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+}
+.seacrh-icon{
+    background-color: #FFE1D2;
+    height: 28px;
+    width: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-right: 7px;
+}
+.seacrh-icon i{
+    color: #F85606;
+    font-size: 1.1rem;
+}
+.nave-login{
+    color: #FFFFFF;
+    height: 40px;
+    font-weight: 790;
+    width: 70px;
+    border-right: 0.3px solid white;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.nave-signup{
+    color: #FFFFFF;
+    height: 40px;
+    font-weight: 790;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+
+}
+.language{
+    height: 40px;
+    font-size: 14px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.nave-cart{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-right: 80px;
+}
+.hover:hover{
+    background-color: #d15416;
+    border-radius: 6px;
+}
+/* panel */
+.panel-first{
+    display: flex;
+
+    
+}
+.panel-first a{
+    height: 27px;
+    width: 238px;
+    margin-left: 14px;
+    color: #757575;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 4px;
+    
+}
+.panel-first i{
+    height: 25px;
+    width: 15px;
+    color: #757575;
+    margin-top: 4px;
+
+}
+.panel-first i:hover{
+    color: #F85606;
+}
+.panel-first a:hover{
+    color: #F85606;
+}
+.panel-list{
+    height: 350px;
+    width: 320px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 0.3px solid rgb(230, 224, 224);
+
+}
+.panel-image{
+    background-image: url(panel-image.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    margin-right: 80px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 12px;
+}
+.panel-second{
+    height: 45px;
+    width: 89%;
+    background-color:#FFF1EB ;
+    color: #999999;
+    margin-left: 80px;
+    margin-right: 200px;
+    margin-top: 24px;
+    border-radius: 6px;
+}
+.panel-2list:hover{
+    background-color:#f8dacd;
+}
+.panel-2list{
+    color: #000000E6;
+    font-size: 15px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+}
+.panel-2list a{
+    color: #000000E6;
+    font-size: 15px;
+    display: flex;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.panelimage2{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-image: url(panel2.jpg);
+    background-size: cover;
+
+}
+.messages{
+    background-color: rgb(243, 237, 237);
+    color: #999999;
+    font-size: 12px;
+    height: 60px;
+    width: 70px;
+    position: fixed;
+    right: 10px;
+    border-radius: 6px;
+}
+.messages i{
+    height: 19;
+    color: #999999;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.shop-section{
+    background-color: #f0efef;
+    height: 800px;
+    width: 89%;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+.shopbox{
+    height: 750px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shop-section h3{
+    color: #424242;
+    font-size: 22px;
+    font-weight: 50;
+}
+.box{
+    height: 320px;
+    width: 16%;
+    background-color: #FFFFFF;
+}
+.box-image{
+    background-size: cover;
+    height: 190px;
+    width: 190px;
+}
+.title{
+    color: black;
+    margin-top: 14px;
+}
+.actual-price{
+    color: #F85606;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.discount{
+    color: #9E9E9E;
+    margin-top: 8px;
+    font-size: 12px;
+}
+.discount s{
+    color: #9E9E9E;
+}
+.rating{
+    color: rgb(255, 187, 0);
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    font-size: 14px;
+}
+.footer{
+    height: 100px;
+    width: 89%;
+    margin-left: 80px;
+    background-color: #f0efef;
+    border-top: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load-more{
+    height: 38px;
+    width: 33%;
+    color: #F85606;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #F85606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
